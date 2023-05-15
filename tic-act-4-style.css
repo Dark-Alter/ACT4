@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #eff4f5;
+
+}
+
+.navbar{
+  width: 100%;
+  height: 65px;
+  background: #a7def1;
+  position:fixed;
+  top: 0;
+  left: 0;
+  padding: 5px 5px;
+  padding-right: 30px;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.navbar .rightS{
+  height: 55px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  background: #022531;
+  border-radius: 20px;
+}
+
+.navbar .rightS i{
+  font-size: 30px;
+  color: white;
+  height: 32px;
+  min-width: 52px;
+  text-align: center;
+}
+
+.navbar .rightS .idk{
+  font-size: 22px;
+  font-weight: 1000;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 110px;
+}
+
+.navbar,
+.navbar .nav-items{
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav-items{
+  column-gap: 20px;
+  list-style: none;
+}
+
+.navbar .nav-items li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 1000;
+}
+
+section {
+  width: 100%;
+  background: #187a9a;
+  padding-left: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+}
